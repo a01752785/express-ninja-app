@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/a01752785/express-ninja-app#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
