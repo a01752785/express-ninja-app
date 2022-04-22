@@ -9,6 +9,9 @@ const app = express();
 mongoose.connect("mongodb://localhost/ninjago");
 mongoose.Promise = global.Promise;
 
+// Middleware to handle static file requests from public folder 
+app.use(express.static("public"));
+
 // JSON parser middleware
 app.use(bodyParser.json());
 
